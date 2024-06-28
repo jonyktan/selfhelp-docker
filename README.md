@@ -1,9 +1,11 @@
-# dockerselfhelp
+# Docker Self-help
 Compilation of all Docker info that I have come to rely on. To serve as a quick reference when troubleshooting issues with Docker. 
 
 ## Contents
 - [Running GUI apps from container](#running-gui-apps-from-container)
-
+- [GPU Support](#gpu-support)
+- [Other Useful Flags](#other-useful-flags)
+- [Monitoring](#monitoring)
 
 ## Running GUI apps from container
 Reference: [stackoverflow](https://stackoverflow.com/a/75392952/25254222)
@@ -22,5 +24,39 @@ docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /mnt/wslg:/mnt/wslg -e DISPLA
 ### From Windows
 
 Not tested.
+
+</details>
+
+## GPU Support
+
+<details>
+
+<summary><i>Click to expand</i></summary>
+
+Add `--gpus=all` flag in the `docker run` command. 
+
+</details>
+
+## Other Useful Flags
+
+<details>
+
+<summary><i>Click to expand</i></summary>
+
+### Docker Build
+
+
+### Docker Run
+
+
+### Docker Exec
+
+</details>
+
+## Monitoring
+
+<details>
+
+<summary><i>Click to expand</i></summary>
 
 </details>
