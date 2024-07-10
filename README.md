@@ -48,8 +48,25 @@ Add `--gpus=all` flag in the `docker run` command.
 
 ### Docker Run
 
+- Specify name for running container. Makes it easier to `docker exec` into the desired container.
+    
+    ```
+    --name <container name>
+    ```
+
+- Automatically remove container after it is stopped.
+
+    ```
+    --rm
+    ```
 
 ### Docker Exec
+
+- Launch bash in a new terminal in a running container. "Enter" a running container.
+
+    ```
+    docker exec -it <container name> bash
+    ```
 
 </details>
 
