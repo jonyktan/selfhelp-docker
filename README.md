@@ -19,7 +19,11 @@ Compilation of all Docker info that I have come to rely on. To serve as a quick 
 
 ### Ubuntu
 
-WIP
+1. [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/).
+
+1. [Remove need for `sudo` for docker](https://docs.docker.com/engine/install/linux-postinstall/). 
+
+1. [Install NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) for GPU support. 
 
 ### Windows
 
